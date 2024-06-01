@@ -1,0 +1,140 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #A3A656;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 70px; /* Altura de la lista */
+    align-items: center;
+    padding-left: 70px; /* Distancia desde la izquierda */
+}
+
+nav ul.menu li {
+    margin-right: 20px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 70px; /* Alineación vertical centrada */
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Ajuste de margen derecho */
+}
+
+.account img {
+    margin-right: 10px; /* Añadir margen derecho al logo */
+}
+
+.account span {
+    margin-right: 20px; /* Añadir margen derecho entre texto */
+}
+
+.arrow {
+    margin-left: 10px; /* Margen izquierdo de la flecha */
+    font-size: 12px; /* Tamaño de la flecha */
+}
+
+/* Estilos para la sección principal con la imagen */
+.main-image {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.main-text {
+    position: absolute;
+    top: 35%;
+    left: 200px; /* Distancia desde el borde izquierdo */
+    transform: translateY(-50%); /* Solo mover en el eje Y */
+    color: black; /* Color del texto */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+.main-text h1 {
+    font-size: 96px; /* Tamaño de la fuente */
+    font-family: 'Romanesco', cursive; /* Aplicar la fuente Romanesco */
+    font-weight: 400; /* Peso Regular */
+    margin: 0;/* Asegúrate de tener la fuente adecuada */
+    margin-bottom: 4%;
+
+}
+
+.main-text p {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600; /* SemiBold */
+        font-size: 32px;/* Asegúrate de tener la fuente adecuada */
+        max-width: 60%;
+        margin: 0;
+}
+
+/* Ajustes adicionales para el menú */
+nav ul.menu li a {
+    font-family: 'Inter', sans-serif; /* Fuente Inter */
+    padding: 0 10px; /* Espaciado interno para los enlaces */
+
+}
+
+.reservation {
+    margin-top: 0; /* Asegúrate de que no haya margen superior */
+    width: 100%; /* Utilizar todo el ancho de la página */
+    background-color: #F1F1F1; /* Color de fondo del área de reserva */
+    padding: 20px; /* Espaciado interno */
+    display: flex;
+    justify-content: space-around; /* Distribuir el espacio entre los elementos */
+    align-items: center;
+    box-sizing: border-box; /* Incluir padding y border en el tamaño total */
+}
+
+.reservation label {
+    font-size: 16px;
+    font-weight: 400; /* Peso regular */
+    color: black; /* Color del texto */
+}
+
+.reservation input {
+    font-size: 16px;
+    font-weight: 400; /* Peso regular */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px; /* Ancho fijo para los campos de entrada */
+}
+.reservation input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9E9A9A;
+}
